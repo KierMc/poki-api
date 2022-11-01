@@ -1,11 +1,13 @@
 import './App.css';
-import FetchAPI from './components/FetchAPI';
+// import FetchAPI from './components/FetchAPI';
+import AxiosPoki from './components/AxiosPoki';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <FetchAPI />
+        {/* <FetchAPI /> */}
+        <AxiosPoki />
       </header>
     </div>
   );

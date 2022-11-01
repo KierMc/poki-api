@@ -9,7 +9,7 @@ const FetchAPI = () => {
             return response.json();
         }).then(response => {
             setPokie(response.results)
-            console.log("This is the 2nd then", response.results);
+            // console.log("This is the 2nd then", response.results);
         }).catch(err=>{
             console.log(err);
         });
